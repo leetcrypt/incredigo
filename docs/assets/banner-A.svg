@@ -1,0 +1,23 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Incredigo (igo) — no plaintext at rest: decrypted secrets in locked memory, GPG-encrypted on disk">
+  <defs>
+    <linearGradient id="Abg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#161210"/><stop offset="1" stop-color="#0C0907"/></linearGradient>
+    <linearGradient id="Aword" x1="360" y1="120" x2="360" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F7B968"/><stop offset="1" stop-color="#E8772E"/></linearGradient>
+    <linearGradient id="Atile" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1A1410"/><stop offset="1" stop-color="#0B0806"/></linearGradient><linearGradient id="Aink" x1="30" y1="80" x2="170" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F7B968"/><stop offset="0.6" stop-color="#E8772E"/><stop offset="1" stop-color="#C2531A"/></linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="20" fill="url(#Abg)"/>
+  <g transform="translate(56,70) scale(1.1)">
+    <rect width="200" height="200" rx="44" fill="url(#Atile)" stroke="#2a201a" stroke-width="2"/>
+    <rect x="36" y="98" width="12" height="48" rx="6" fill="url(#Aink)"/>
+    <path d="M42 69 L51 78 L42 87 L33 78 Z" fill="#F7B968"/>
+    <text x="104" y="146" text-anchor="middle" font-family="'JetBrainsMono Nerd Font','JetBrains Mono','Fira Code',monospace" font-weight="700" font-size="96" fill="url(#Aink)">go</text>
+  </g>
+  <text x="360" y="158" font-family="'JetBrainsMono Nerd Font','JetBrains Mono','Fira Code',monospace" font-size="68" font-weight="700" letter-spacing="3" fill="#8C5E2E"><tspan>in</tspan><tspan fill="url(#Aword)">CRED</tspan><tspan>i</tspan><tspan fill="url(#Aword)">GO</tspan></text>
+  <text x="362" y="206" font-family="'Inter','DejaVu Sans',sans-serif" font-size="25" font-weight="500" fill="#C9BBB0">Decrypted secrets live only in locked memory.</text>
+  <text x="362" y="240" font-family="'Inter','DejaVu Sans',sans-serif" font-size="25" font-weight="500" fill="#C9BBB0">No plaintext at rest — GPG-encrypted on disk.</text>
+  <g font-family="'JetBrainsMono Nerd Font','JetBrains Mono',monospace" font-size="16" font-weight="600">
+    <g transform="translate(362,278)"><rect width="150" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/><text x="75" y="22" text-anchor="middle" fill="#F7B968">local-first</text></g>
+    <g transform="translate(524,278)"><rect width="138" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/><text x="69" y="22" text-anchor="middle" fill="#F7B968">RAM-only</text></g>
+    <g transform="translate(674,278)"><rect width="118" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/><text x="59" y="22" text-anchor="middle" fill="#F7B968">offline</text></g>
+    <g transform="translate(804,278)"><rect width="196" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/><text x="98" y="22" text-anchor="middle" fill="#F7B968">no plaintext at rest</text></g>
+  </g>
+</svg>

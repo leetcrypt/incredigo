@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Incredigo logo: nested diamonds around a sealed core — layered credential custody">
+  <defs>
+    <linearGradient id="strata" x1="48" y1="48" x2="464" y2="464" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7B968"/>
+      <stop offset="0.5" stop-color="#E8772E"/>
+      <stop offset="1" stop-color="#A8410F"/>
+    </linearGradient>
+    <radialGradient id="core" cx="256" cy="256" r="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBD9A6"/>
+      <stop offset="1" stop-color="#F08A2C"/>
+    </radialGradient>
+  </defs>
+
+  <g fill="none" stroke="url(#strata)" stroke-linejoin="round">
+    <path d="M256 32 L480 256 L256 480 L32 256 Z"  stroke-width="18" opacity="0.42"/>
+    <path d="M256 104 L408 256 L256 408 L104 256 Z" stroke-width="18" opacity="0.68"/>
+    <path d="M256 172 L340 256 L256 340 L172 256 Z" stroke-width="18"/>
+  </g>
+  <path d="M256 222 L290 256 L256 290 L222 256 Z" fill="url(#core)"/>
+</svg>

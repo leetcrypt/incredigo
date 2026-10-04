@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="igo icon — the o is a vault diamond">
+  <defs><linearGradient id="Dtile" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1A1410"/><stop offset="1" stop-color="#0B0806"/></linearGradient><linearGradient id="Dink" x1="20" y1="80" x2="180" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F7B968"/><stop offset="0.6" stop-color="#E8772E"/><stop offset="1" stop-color="#C2531A"/></linearGradient></defs>
+  <rect width="200" height="200" rx="44" fill="url(#Dtile)" stroke="#2a201a" stroke-width="2"/>
+    <rect x="36" y="98" width="12" height="48" rx="6" fill="url(#Dink)"/>
+    <path d="M42 69 L51 78 L42 87 L33 78 Z" fill="#F7B968"/>
+    <text x="86" y="146" text-anchor="middle" font-family="'JetBrainsMono Nerd Font','JetBrains Mono','Fira Code',monospace" font-weight="700" font-size="96" fill="url(#Dink)">g</text>
+    <g fill="none" stroke="url(#Dink)" stroke-linejoin="round" transform="translate(146,116)"><path d="M0 -30 L30 0 L0 30 L-30 0 Z" stroke-width="9"/><path d="M0 -13 L13 0 L0 13 L-13 0 Z" stroke-width="7"/></g>
+</svg>

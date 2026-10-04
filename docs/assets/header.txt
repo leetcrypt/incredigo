@@ -1,0 +1,6 @@
++------------------------------------------------------------+
+|    /\      INCREDIGO                                       |
+|   /<>\     in-CRED-i-GO : credentials, in Go               |
+|   \<>/     Guards your credentials in locked memory.       |
+|    \/      Leaves no trace on disk.                        |
++------------------------------------------------------------+

@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="igo icon — Strata mark over igo">
+  <defs><linearGradient id="Ctile" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1A1410"/><stop offset="1" stop-color="#0B0806"/></linearGradient><linearGradient id="Cink" x1="40" y1="20" x2="160" y2="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F7B968"/><stop offset="0.6" stop-color="#E8772E"/><stop offset="1" stop-color="#C2531A"/></linearGradient><radialGradient id="Ccore" cx="100" cy="78" r="14" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FBD9A6"/><stop offset="1" stop-color="#F08A2C"/></radialGradient></defs>
+  <rect width="200" height="200" rx="44" fill="url(#Ctile)" stroke="#2a201a" stroke-width="2"/>
+    <g fill="none" stroke="url(#Cink)" stroke-linejoin="round" transform="translate(100,78)"><path d="M0 -46 L46 0 L0 46 L-46 0 Z" stroke-width="7" opacity="0.42"/><path d="M0 -29 L29 0 L0 29 L-29 0 Z" stroke-width="7"/></g>
+    <path d="M100 66 L112 78 L100 90 L88 78 Z" fill="url(#Ccore)"/>
+    <text x="100" y="172" text-anchor="middle" font-family="'JetBrainsMono Nerd Font','JetBrains Mono','Fira Code',monospace" font-weight="700" font-size="42" letter-spacing="4" fill="url(#Cink)">igo</text>
+</svg>

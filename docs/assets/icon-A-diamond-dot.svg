@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="igo icon — diamond-dot on dark tile">
+  <defs><linearGradient id="Atile" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1A1410"/><stop offset="1" stop-color="#0B0806"/></linearGradient><linearGradient id="Aink" x1="30" y1="80" x2="170" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F7B968"/><stop offset="0.6" stop-color="#E8772E"/><stop offset="1" stop-color="#C2531A"/></linearGradient></defs>
+  <rect width="200" height="200" rx="44" fill="url(#Atile)" stroke="#2a201a" stroke-width="2"/>
+    <rect x="36" y="98" width="12" height="48" rx="6" fill="url(#Aink)"/>
+    <path d="M42 69 L51 78 L42 87 L33 78 Z" fill="#F7B968"/>
+    <text x="104" y="146" text-anchor="middle" font-family="'JetBrainsMono Nerd Font','JetBrains Mono','Fira Code',monospace" font-weight="700" font-size="96" fill="url(#Aink)">go</text>
+</svg>
