@@ -1,0 +1,19 @@
+{
+  "//": "Chrome native-messaging host manifest TEMPLATE for the browserrot extension. A human",
+  "//install": "installs this (see lab/extension-proof.md) — it is HOST MUTATION (writes into",
+  "//install2": "~/.config/<chrome|chromium>/NativeMessagingHosts/), so it is NEVER done unattended.",
+  "//build": "Build the host binary from the repo root with:",
+  "//build2": "  go build -o incredigo-browserrot-host ./cmd/incredigo-browserrot-host",
+  "//path": "Replace <PATH> with the ABSOLUTE directory holding that compiled binary (cmd/",
+  "//path2": "incredigo-browserrot-host/main.go — it constructs a zero-value browserrot.ExtensionDriver",
+  "//path3": "over os.Stdin/os.Stdout and runs the safety spine). Replace <EXTENSION_ID> with the",
+  "//path4": "unpacked extension's ID. The host reads its target from the environment (INCREDIGO_SITE_BASE,",
+  "//path5": "INCREDIGO_SITE_USER, INCREDIGO_CREDENTIAL, INCREDIGO_PASSPHRASE, ...); run it with -h for the list.",
+  "name": "org.incredigo.browserrot",
+  "description": "Incredigo browserrot native messaging host — drives real-session password rotation from the MV3 extension.",
+  "path": "<PATH>/incredigo-browserrot-host",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://<EXTENSION_ID>/"
+  ]
+}

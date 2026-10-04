@@ -1,0 +1,18 @@
+{
+  "name": "incredigo-browserrot-sidecar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "incredigo browserrot Node sidecar — real-fingerprint Chromium driver behind JSON-RPC/stdio. Speaks the same Session contract as the Go go-rod driver. NEVER logs a secret, NEVER writes one to disk, NEVER sends one to a model.",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright-core": "^1.61.1"
+  },
+  "optionalDependencies": {
+    "@browserbasehq/stagehand": "^1.9.0",
+    "patchright": "^1.61.1"
+  }
+}

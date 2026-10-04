@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Incredigo Password Rotator",
+  "version": "0.1.0",
+  "description": "On command from the incredigo native host, rotate the password on the ACTIVE, already-logged-in tab. Reuses the real session (cookies + post-2FA) — never bypasses MFA, never stores a secret.",
+  "minimum_chrome_version": "116",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "permissions": [
+    "nativeMessaging",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

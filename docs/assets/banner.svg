@@ -1,0 +1,61 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Incredigo — no plaintext at rest: decrypted secrets in locked memory, GPG-encrypted on disk">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161210"/>
+      <stop offset="1" stop-color="#0C0907"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="40" y1="40" x2="300" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F08A2C"/>
+      <stop offset="0.55" stop-color="#D9661A"/>
+      <stop offset="1" stop-color="#A8410F"/>
+    </linearGradient>
+    <linearGradient id="word" x1="360" y1="120" x2="360" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7B968"/>
+      <stop offset="1" stop-color="#E8772E"/>
+    </linearGradient>
+    <radialGradient id="core" cx="256" cy="256" r="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBD9A6"/>
+      <stop offset="1" stop-color="#F08A2C"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+
+  <!-- ===== Mark: STRATA (nested diamonds, 512 art scaled *0.5) ===== -->
+  <g transform="translate(54,42) scale(0.5)">
+    <g fill="none" stroke="url(#fur)" stroke-linejoin="round">
+      <path d="M256 32 L480 256 L256 480 L32 256 Z"  stroke-width="18" opacity="0.42"/>
+      <path d="M256 104 L408 256 L256 408 L104 256 Z" stroke-width="18" opacity="0.68"/>
+      <path d="M256 172 L340 256 L256 340 L172 256 Z" stroke-width="18"/>
+    </g>
+    <path d="M256 222 L290 256 L256 290 L222 256 Z" fill="url(#core)"/>
+  </g>
+
+  <!-- ===== Wordmark ===== -->
+  <text x="360" y="158" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace"
+        font-size="68" font-weight="700" letter-spacing="3" fill="#8C5E2E"><tspan>in</tspan><tspan fill="url(#word)">CRED</tspan><tspan>i</tspan><tspan fill="url(#word)">GO</tspan></text>
+  <text x="362" y="206" font-family="'Inter','DejaVu Sans',sans-serif"
+        font-size="25" font-weight="500" fill="#C9BBB0">Decrypted secrets live only in locked memory.</text>
+  <text x="362" y="240" font-family="'Inter','DejaVu Sans',sans-serif"
+        font-size="25" font-weight="500" fill="#C9BBB0">No plaintext at rest — GPG-encrypted on disk.</text>
+
+  <!-- guarantee chips -->
+  <g font-family="'JetBrains Mono',ui-monospace,monospace" font-size="16" font-weight="600">
+    <g transform="translate(362,278)">
+      <rect width="150" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/>
+      <text x="75" y="22" text-anchor="middle" fill="#F7B968">local-first</text>
+    </g>
+    <g transform="translate(524,278)">
+      <rect width="138" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/>
+      <text x="69" y="22" text-anchor="middle" fill="#F7B968">RAM-only</text>
+    </g>
+    <g transform="translate(674,278)">
+      <rect width="118" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/>
+      <text x="59" y="22" text-anchor="middle" fill="#F7B968">offline</text>
+    </g>
+    <g transform="translate(804,278)">
+      <rect width="196" height="34" rx="17" fill="#1F1611" stroke="#D9661A" stroke-width="1.5"/>
+      <text x="98" y="22" text-anchor="middle" fill="#F7B968">no plaintext at rest</text>
+    </g>
+  </g>
+</svg>

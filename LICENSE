@@ -1,0 +1,77 @@
+Incredigo Source-Available License (Attribution & Royalty), v1.0
+
+Copyright (c) 2026 Trilltechnician (the "Author").
+Project home: https://github.com/leetcrypt/incredigo
+
+This is a SOURCE-AVAILABLE license, not an OSI-approved open-source license: the
+source may be read, used, and modified under the terms below, but commercial
+monetization requires a separate paid license from the Author.
+
+------------------------------------------------------------------------------
+1. DEFINITIONS
+------------------------------------------------------------------------------
+"Software" means this codebase and any part of it.
+"You" means any person or entity exercising rights under this license.
+"Derivative" means any fork, modification, or work that includes any part of the
+   Software.
+"Commercial Use" means any use that, directly or indirectly, generates revenue
+   or other commercial advantage — including selling, licensing, or hosting the
+   Software (or a Derivative) as or within a paid product, a paid service, a SaaS
+   offering, or any offering monetized by subscription, fee, or advertising.
+"Non-Commercial Use" means all other use: personal, educational, academic,
+   research, evaluation, and internal use that is not itself monetized.
+
+------------------------------------------------------------------------------
+2. GRANT FOR NON-COMMERCIAL USE
+------------------------------------------------------------------------------
+The Author grants You a worldwide, royalty-free, non-exclusive license to use,
+copy, modify, and redistribute the Software and Derivatives for Non-Commercial
+Use, subject to the Attribution requirement in Section 4.
+
+------------------------------------------------------------------------------
+3. COMMERCIAL USE REQUIRES A ROYALTY-BEARING LICENSE
+------------------------------------------------------------------------------
+Commercial Use is NOT permitted under this license. To make Commercial Use of the
+Software or any Derivative, You must first obtain a separate written commercial
+license from the Author, which will be royalty-bearing. Contact the Author via
+the project home above to arrange commercial terms.
+
+Until such a commercial license is granted in writing, any Commercial Use is a
+breach of this license and automatically terminates the rights granted in
+Section 2.
+
+------------------------------------------------------------------------------
+4. ATTRIBUTION (REQUIRED FOR ALL USE, INCLUDING FORKS)
+------------------------------------------------------------------------------
+Any redistribution of the Software or a Derivative — in source or binary form,
+including any fork — must:
+  (a) retain this LICENSE file and the copyright notice above; and
+  (b) give clear, visible credit to the Author, naming "Incredigo" and linking to
+      the project home above, in the documentation, README, or "about" surface of
+      the redistributed work.
+
+------------------------------------------------------------------------------
+5. NO TRADEMARK RIGHTS
+------------------------------------------------------------------------------
+This license grants no rights in the Author's names, logos, or trademarks
+("Incredigo", the Strata mark) except as required for the attribution in
+Section 4.
+
+------------------------------------------------------------------------------
+6. DISCLAIMER OF WARRANTY AND LIABILITY
+------------------------------------------------------------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. THIS TOOL HANDLES CREDENTIALS; YOU
+RUN IT AT YOUR OWN RISK. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------------
+7. TERMINATION
+------------------------------------------------------------------------------
+Any breach of Sections 3 or 4 automatically terminates this license. Upon
+termination You must cease all use and distribution of the Software and
+Derivatives, except that a granted written commercial license continues under its
+own terms.

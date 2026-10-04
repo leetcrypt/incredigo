@@ -1,0 +1,34 @@
+# build output
+/credrot
+/dist/
+/incredigo-map.html
+
+# never commit secrets or backup bundles (any sealer: age / hmac / openssl)
+*.credrot.enc
+*.credrot.age
+*.age
+*.env
+.env.*
+
+# local-only design docs (kept on disk, never pushed upstream)
+docs/ROTATION.md
+docs/ROTATION-REAL-CRED-RUNBOOK.md
+
+# maintainer-local: AI session directive (tailnet detail) + stale dev handoff
+CLAUDE.md
+HANDOFF.md
+
+# lab kit: ship the scripts, never the binaries or real-host / runbook material
+lab/incredigo
+lab/gitea
+lab/*.age
+lab/rung1-*
+
+# browserrot Node sidecar: ship the source (index.js/heal.js/package.json), never the
+# installed dependency tree or lockfile churn (npm install regenerates them)
+internal/browserrot/sidecar/node_modules/
+internal/browserrot/sidecar/package-lock.json
+
+# editor / OS
+*.swp
+.DS_Store
